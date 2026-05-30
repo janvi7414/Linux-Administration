@@ -18,8 +18,8 @@ Using Systemd and Timer instrea of cron which lacks error tracking feature. Depl
 
 ## To Verify Deployment
 
-# Viewing active timers queue and next execution slots
+### Viewing active timers queue and next execution slots
 systemctl list-timers --all | grep sys-backup
 
-# Checking the automation execution logs
+### Checking the automation execution logs
 cat /var/log/system_backup.log
